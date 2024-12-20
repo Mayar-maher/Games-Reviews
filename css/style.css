@@ -1,0 +1,56 @@
+*{
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  
+}
+.navbar-stick {
+  position: sticky;
+  top: 0; 
+  z-index: 1000; 
+  background-color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.custom-height {
+  height: 30vh;
+  object-fit: cover; 
+}
+.nav-link{
+  color:white ;
+  transition: all 0.3s ease;
+}
+.nav-link:hover{
+  color:#0dcaf0 ;
+}
+nav h4:hover{
+  color: black;
+}
+.custom-bg {
+  background-color: #3A497B;
+}
+  .card {
+    overflow: hidden;
+    position: relative;
+    transition: transform 2s ease;
+  }
+
+  .card img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 5px; 
+    opacity: 0.4;
+    transition: opacity 2s ease; /* Added opacity transition */
+  }
+  .card:hover img{
+    opacity: 1;
+  }
+  .card p{
+    font-size: 14px;
+  }
+  .card:hover{
+    transform: scale(1.1); 
+  }
+  .card:hover .custom-bg{
+    background-color: rgb(87, 87, 187);
+  }
